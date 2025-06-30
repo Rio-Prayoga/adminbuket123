@@ -124,7 +124,7 @@ export default function AdminLogin() {
 
             <div className="mt-6 text-center">
               <p className="text-xs text-slate-500">
-                fyi: emailadmin / pw
+                Enter : email@admin.com / pw
               </p>
             </div>
           </CardContent>
