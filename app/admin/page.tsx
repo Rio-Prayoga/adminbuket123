@@ -24,7 +24,7 @@ export default function AdminLogin() {
     setError('');
 
     // Simulate login validation
-    if (email === 'admin@buketflorist.com' && password === 'admin123') {
+    if (email === 'admin@buketflorist.com' && password === 'rio1234') {
       // Store auth token (in real app, this would be handled by your auth system)
       localStorage.setItem('admin_token', 'logged_in');
       router.push('/admin/dashboard');
