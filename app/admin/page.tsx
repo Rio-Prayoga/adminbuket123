@@ -124,7 +124,7 @@ export default function AdminLogin() {
 
             <div className="mt-6 text-center">
               <p className="text-xs text-slate-500">
-                Demo: admin@buketflorist.com / admin123
+                fyi: emailadmin / pw
               </p>
             </div>
           </CardContent>
