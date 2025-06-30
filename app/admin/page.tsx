@@ -72,7 +72,7 @@ export default function AdminLogin() {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="admin@buketflorist.com"
+                    placeholder="Masukkan email admin"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="pl-10 h-12"
