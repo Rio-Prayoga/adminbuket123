@@ -24,7 +24,7 @@ export default function AdminLogin() {
     setError('');
 
     // Simulate login validation
-    if (email === 'adminflorist@gmail.com' && password === 'rio1234') {
+    if (email === 'adminflorist@gmail.com' && password === 'admin1234') {
       // Store auth token (in real app, this would be handled by your auth system)
       localStorage.setItem('admin_token', 'logged_in');
       router.push('/admin/dashboard');
@@ -124,7 +124,7 @@ export default function AdminLogin() {
 
             <div className="mt-6 text-center">
               <p className="text-xs text-slate-500">
-                Enter : email@admin.com / pw
+                Enter : adminflorist@gmail.com / admin1234
               </p>
             </div>
           </CardContent>
